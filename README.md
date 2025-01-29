@@ -21,7 +21,7 @@ Structured as a workbook with concrete weekly tasks, code deliverables, and prog
    - **Deliverable**: Achieve >95% test accuracy.  
 
 2. **Transformer Architecture** (6 hrs)  
-   - Study [Callum McDougall’s Transformer from Scratch](https://neelnanda.io/transformer-tutorial).  
+   - Study [Callum McDougall’s Transformer from Scratch](https://arena-chapter1-transformer-interp.streamlit.app/[1.1]_Transformer_from_Scratch) or [Neel Nanda’s Transformer from Scratch](https://neelnanda.io/transformer-tutorial).  
    - **Code**: Implement a single transformer block (attention + MLP) from scratch.  
    - **Deliverable**: Pass the tutorial’s test cases (no copying!).  
 
@@ -32,7 +32,7 @@ Structured as a workbook with concrete weekly tasks, code deliverables, and prog
 #### **Success Criteria**  
 - [ ] MLP trained on MNIST.  
 - [ ] Single transformer block code passing tests.  
-- [ ] Read [Barebones Guide to MI Prerequisites](https://www.lesswrong.com/posts/uMQ3cqWDPHhjtiesc/mechanistic-interpretability-prerequisites).  
+- [ ] Read [Barebones Guide to MI Prerequisites](https://www.neelnanda.io/mechanistic-interpretability/prereqs).  
 
 ---
 
@@ -42,11 +42,11 @@ Structured as a workbook with concrete weekly tasks, code deliverables, and prog
 
 #### **Tasks**  
 1. **TransformerLens Setup** (3 hrs)  
-   - Install and run [Main Demo](https://colab.research.google.com/github/neelnanda-io/TransformerLens/blob/main/demos/Main_Demo.ipynb).  
+   - Install and run [Main Demo](https://arena3-chapter1-transformer-interp.streamlit.app/%5B1.2%5D_Intro_to_Mech_Interp).  
    - Extract MLP activations for the prompt “Hello, world!”.  
 
 2. **Induction Heads Tutorial** (6 hrs)  
-   - Complete [Induction Heads exercises](https://colab.research.google.com/github/neelnanda-io/TransformerLens/blob/main/demos/Induction_Heads_Tutorial.ipynb).  
+   - Complete [Induction Heads exercises](https://arena-chapter1-transformer-interp.streamlit.app).  
    - **Deliverable**: Plot attention patterns for induction heads.  
 
 3. **Python Practice** (3 hrs)  
@@ -85,7 +85,7 @@ Structured as a workbook with concrete weekly tasks, code deliverables, and prog
 ---
 
 ### **Week 4: Open Problems & Mini-Research**  
-**Goal**: Tackle a problem from [200 Concrete Open Problems](https://www.alignmentforum.org/s/EmDuGeRw749sD3GKd).  
+**Goal**: Tackle a problem from [200 Concrete Open Problems](https://www.alignmentforum.org/posts/LbrPTJ4fmABEdEnLf/200-concrete-open-problems-in-mechanistic-interpretability).  
 **Time**: 12 hours  
 
 #### **Tasks**  
