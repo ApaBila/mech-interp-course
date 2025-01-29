@@ -7,6 +7,9 @@ Commitment : 12hrs/Week for 4 weeks
 Structured as a workbook with concrete weekly tasks, code deliverables, and progress tracking.  
 **Focus**: Build intuition for transformers, use TransformerLens, and run experiments on GPT-2-small.
 
+### Directions to use:
+
+
 ### **Week 1: ML Prerequisites & PyTorch Fluency**  
 **Goal**: Train an MLP on MNIST, understand transformer architecture basics.  
 **Time**: 12 hours  
@@ -128,6 +131,111 @@ Structured as a workbook with concrete weekly tasks, code deliverables, and prog
 ```  
 
 ---
+
+### **Setup Instructions**
+
+1. **Fork the Repository**
+   ```bash
+   # Click the 'Fork' button in the top right of the GitHub repository page
+   ```
+
+2. **Clone Your Fork**
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/mechanistic-interpretability-course.git
+   cd mechanistic-interpretability-course
+   ```
+
+3. **Create and Activate Virtual Environment**
+   ```bash
+   # For Python venv
+   python -m venv venv
+   
+   # On Windows
+   .\venv\Scripts\activate
+   
+   # On Unix or MacOS
+   source venv/bin/activate
+   ```
+
+4. **Install Dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+5. **Create Directory Structure**
+   ```bash
+   # Make the setup script executable
+   chmod +x setup.sh
+   
+   # Run the setup script
+   ./setup.sh
+   ```
+
+### Repository Structure
+```
+mechanistic-interpretability-course/
+├── week1/
+│   ├── mnist_mlp/
+│   ├── transformer_block/
+│   └── python_practice/
+├── week2/
+│   ├── transformerlens_setup/
+│   ├── induction_heads/
+│   └── python_practice/
+├── week3/
+│   ├── paper_analysis/
+│   ├── activation_patching/
+│   └── python_practice/
+├── week4/
+│   ├── problem_selection/
+│   ├── experiments/
+│   └── blog_post/
+├── requirements.txt
+└── README.md
+```
+
+### Working with the Repository
+
+1. **Track Your Progress**
+   - Each week's folder contains a README.md file for tracking progress
+   - Use the provided Notion template for detailed progress tracking
+
+2. **Submitting Work**
+   - Create a new branch for each week's work:
+     ```bash
+     git checkout -b week1-solutions
+     ```
+   - Commit your changes regularly:
+     ```bash
+     git add .
+     git commit -m "Completed MNIST MLP implementation"
+     ```
+   - Push to your fork:
+     ```bash
+     git push origin week1-solutions
+     ```
+
+3. **Getting Updates**
+   - Add the original repository as upstream:
+     ```bash
+     git remote add upstream https://github.com/ORIGINAL_OWNER/mechanistic-interpretability-course.git
+     ```
+   - Fetch and merge updates:
+     ```bash
+     git fetch upstream
+     git merge upstream/main
+     ```
+
+### Using Google Colab
+- Each `notebooks` directory can be synced with Google Colab
+- Use the "Open in Colab" button and save copies to your Google Drive
+- Remember to save your work back to the repository
+
+### Need Help?
+- Join the [ML Collective Discord](https://mlcollective.org/)
+- Open an issue in the repository
+- Check the [TransformerLens Documentation](https://neelnanda-io.github.io/TransformerLens/)
+
 
 ### **Pro Tips**  
 1. **Debugging**: Use `%debug` in Colab for post-mortem inspection of shape errors.  
