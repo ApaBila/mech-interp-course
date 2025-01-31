@@ -107,31 +107,6 @@ Structured as a workbook with concrete weekly tasks, code deliverables, and prog
 
 ---
 
-### **Notion Progress Tracker Template**  
-```markdown  
-## Week [X] Log  
-
-### Core Tasks  
-- [ ] Task 1  
-- [ ] Task 2  
-
-### Code Deliverables  
-- [ ] GitHub/Colab links  
-
-### Key Learnings  
-- [ ] 3 bullet points  
-
-### Blockers  
-- [ ] What’s confusing?  
-
-### Time Log  
-- Day 1: [ ] hrs  
-- Day 2: [ ] hrs  
-- ...  
-```  
-
----
-
 ### **Setup Instructions**
 
 1. **Fork the Repository**
