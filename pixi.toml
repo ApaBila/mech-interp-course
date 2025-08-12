@@ -1,0 +1,21 @@
+[workspace]
+authors = ["ApaBila <salsabila.mahdi@gmail.com>"]
+channels = ["conda-forge"]
+name = "mech-interp-course"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = "3.12.*"
+einops = ">=0.8.1,<0.9"
+numpy = "<2"
+matplotlib = ">=3.10.5,<4"
+jupyter = ">=1.1.1,<2"
+pytest = ">=8.4.1,<9"
+
+[pypi-dependencies]
+torch = ">=2.8.0, <3"
+torchvision = ">=0.23.0, <0.24"
+transformer-lens = ">=2.16.1, <3"
